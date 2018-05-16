@@ -62,7 +62,7 @@ attr_writer
   end
 
   def call_friend(person_instance)
-    person_instance.happiness += 3
+    self.happiness += 3
 
   end
 
