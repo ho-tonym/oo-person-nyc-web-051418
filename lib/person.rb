@@ -7,6 +7,7 @@ attr_writer
     @name = name
     @bank_account = 25
     @happiness = 8
+    @hygiene = 8
   end
 
   def happiness=(integer)
@@ -19,5 +20,12 @@ attr_writer
 
   end
 
+  def hygiene=(integer)
+    if integer > 10
+      integer = 10
+    elsif integer < 0
+      integer = 0
+    end
+  end
 
 end
