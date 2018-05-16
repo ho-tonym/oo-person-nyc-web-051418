@@ -51,7 +51,8 @@ attr_writer
   end
 
   def take_bath
-    hygiene=(4)
+    value = @hygiene += 4
+    hygiene=(value)
     if @hygiene > 10
       @hygiene = 10
     end
