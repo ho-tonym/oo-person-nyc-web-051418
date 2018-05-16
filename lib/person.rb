@@ -6,7 +6,10 @@ attr_accessor :name
   end
 
 
+  def bank_account
 
+
+  end
 
 
 end
