@@ -34,6 +34,7 @@ attr_writer
       true
     else
       false
+    end
   end
 
 end
