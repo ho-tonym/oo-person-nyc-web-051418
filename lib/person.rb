@@ -53,6 +53,10 @@ attr_writer
   def take_bath
     @hygiene += 4
     "♪ Rub-a-dub just relaxing in the tub ♫"
+    if @hygiene > 10
+      hygiene = 10
+    end
+
   end
 
 
