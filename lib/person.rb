@@ -29,7 +29,7 @@ attr_writer
     @hygiene = integer
   end
 
-  def happy
+  def happy?
     if @happiness > 7
       true
     else
