@@ -37,4 +37,13 @@ attr_writer
     end
   end
 
+  def clean?
+    if @hygiene > 7
+      true
+    else
+      false
+    end
+
+  end
+
 end
