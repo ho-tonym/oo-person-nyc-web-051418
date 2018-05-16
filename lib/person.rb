@@ -12,6 +12,8 @@ attr_writer
   def happiness=(integer)
     if integer > 10
       integer = 10
+    elsif integer < 0
+      integer = 0
     end
     @happiness = integer
 
