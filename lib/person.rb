@@ -26,6 +26,7 @@ attr_writer
     elsif integer < 0
       integer = 0
     end
+    @hygiene = integer
   end
 
 end
